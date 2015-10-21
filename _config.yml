@@ -75,5 +75,5 @@ social:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:JasonHM/jasonHM.github.io.git
+  repository: https://github.com/JasonHM/jasonHM.github.io
   branch: master
