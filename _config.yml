@@ -49,6 +49,7 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    编程: programming
 tag_map:
 
 # Date / Time format
@@ -66,10 +67,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme:  next_1
+theme:  next
 
 social:
-  github: https://github.com/jasonhm
+  github: https://github.com/minhuang0
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

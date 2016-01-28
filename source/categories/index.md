@@ -1,5 +1,5 @@
-title: 标签
+title: 分类
 date: 2015-10-21 18:28:41
-type: tags
+type: categories
 comments: false
 ---
