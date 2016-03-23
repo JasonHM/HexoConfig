@@ -1,4 +1,5 @@
 title: Rails笔记
+date: 2015-09-23
 tags: 
     - rails
 ---
@@ -12,6 +13,9 @@ tags:
       'Access-Control-Request-Method' => '*'
 })
 ```
+
+<!--more-->  
+
 - 导航栏高亮
 写导航栏的时候不知道该如何让选中的菜单高亮，每次都会选中初始的选择项
 

@@ -1,8 +1,14 @@
 title: Phonegap and Appcelerator
+date: 2015-10-11
 tags: 
     - titanium
 
 ---
+
+> 个人学习Titanium的笔记 [20150316 － 20151015](http://ti.huangmin.me/articles)
+
+<!--more--> 
+
 # [Appcelerator Ti](http://www.appcelerator.com/)
 
 最近使用Ti来进行Android和IOS的开发,与之前老版本的不同的是,在我所接触的版本不是之前的Web UI的形式,更多的是接近于原始的UI效果。
@@ -11,7 +17,7 @@ tags:
 
 而后根据[kitchensink](https://github.com/appcelerator/KitchenSink)的方式进行开发,使用Js的Module export 和 export将每一个页面进行分割,并将逻辑和UI写在一个JS文件里面,将多处用到的功能和UI的适配封装成Module([网址参考](http://gitt.io/)),比之前的开发省下了大量的时间和精力。
 
-> 个人学习Titanium的笔记 [20150316 － 20151015](http://ti.huangmin.me/articles)
+ 
 
 # [PhoneGap](http://phonegap.com/)
 

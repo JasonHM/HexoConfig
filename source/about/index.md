@@ -1,21 +1,22 @@
-title: 我的个人信息
+title: 我的简历
 date: 2016-01-05 18:32:13
 comments: false
 ---
 
-欢迎来到我的个人站点。
+-----------------------------------
+## 个人信息
 
-我是黄敏,目前在使用Titanium移动开发和Rails Web开发的工程师, 目前正在学习Nodejs。
+### 简介
 
-了解并学习过一些流行的框架和技术: meteor、react、jquery、bootstrap, js
+我是黄敏,一个前端开发的程序员。目前这里都是写一些笔记啥的，没什么技术含量。
 
-熟悉和了解的一些开发工具: Linux、Mac、Git、Vim、Sublime, Nginx
+在过去的一年半中使用titanium(hybrid app development framework)开发了几个项目，但是觉得要是再做下去都会找不到工作了(做这个的国内人太少了T T)。
 
-喜欢与厉害的人交流,从他们身上学习我所不具备的品质;尝试新的技术,学习新的技能;喜欢开放自由的工作环境;
+由于比较熟悉js, 所以准备向web前端开发方面转型, 正在努力的学习自己的web开发的技能。
 
-2015年软件工程专业毕业,工作经验一年。目前为止使用Ti开发过几个APP项目(悦装网,极客家装预算,乐股在线),有一定的项目经验。
+-----------------------------------
+### 联系方式
 
-欢迎给我写信: huangmin.me@gmail.com
-
-
-[Rails站点](http://ti.huangmin.me/)(2014.10-2015.6)
+Email: huangmin0822@163.com
+[GitHub](https://github.com/minhuang0)(没有开源项目)
+[Rails站点](http://ti.huangmin.me/)(2014.10-2015.6期间用rails搭建的博客)

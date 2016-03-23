@@ -1,4 +1,5 @@
 title: 工具配置
+date: 2015-09-17
 tags: 
     - zsh
     - vim
@@ -6,4 +7,6 @@ tags:
 
 [shell配置oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 [vim配置spf13](https://github.com/spf13/spf13-vim)
+
+<!--more-->  
 

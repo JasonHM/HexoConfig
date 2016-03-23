@@ -1,13 +1,16 @@
 title: webpack笔记
+date: 2016-01-18
 tags: 
     - webpack
 ---
 
 [getting started](http://webpack.github.io/docs/tutorials/getting-started/)
 
-##笔记:
+## 笔记:
 
 install: `npm install webpack -g`
+
+<!--more-->  
 
 一个简单的配置文件`webpack.config.js`:
 
@@ -46,7 +49,7 @@ npm install webpack-dev-server -g
 webpack-dev-server --progress --colors
 ```
 
-##个人理解
+## 个人理解
 
 引用图片:
 

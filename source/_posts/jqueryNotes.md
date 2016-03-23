@@ -1,11 +1,17 @@
 title: jquery笔记
+date: 2015-12-25
 tags: 
     - jquery
+
 ---
 
-#jquery平时遇到的问题
+
+# jquery平时遇到的问题
 
 - 使用[localResizeIMG](https://github.com/think2011/localResizeIMG)做图片压缩的时候碰到的一个问题。
+
+<!-- more -->
+
 hash: 
 
 ```javascript
@@ -15,6 +21,7 @@ for(var hashNum = 0; hashNum < number.length; hashNum++){
     hash["number" + hashNum] = number[hashNum];
 }
 ```
+
 ```console
 //输出结果
 //Object {number0: 0, number1: 1, number2: 2, number3: 3, number4: 4…}

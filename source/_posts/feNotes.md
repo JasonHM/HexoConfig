@@ -1,13 +1,17 @@
 title: 前端开发笔记
+date: 2016-01-28
 tags: 
     - javascript
     - html
 categories: 编程
 
 ---
+
+
 ## 封装部分的html code重复使用: 
 
-###[load](http://api.jquery.com/load/)
+
+### [load](http://api.jquery.com/load/)
 
 ```html
 <!doctype html>
@@ -28,7 +32,9 @@ $("#testLoad").load("/resources/load.html");
 </html>
 ```
 
-###[imports](http://www.html5rocks.com/zh/tutorials/webcomponents/imports/)
+<!-- more -->
+
+### [imports](http://www.html5rocks.com/zh/tutorials/webcomponents/imports/)
 
 warnings.html:
 
@@ -68,7 +74,7 @@ warnings.html:
 </body>
 ```
 
-###[react](http://stackoverflow.com/questions/22461129/switch-class-on-tabs-with-react-js)写一个模块
+### [react](http://stackoverflow.com/questions/22461129/switch-class-on-tabs-with-react-js)写一个模块
 
 下面是我写的一个例子: 
 ```

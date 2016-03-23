@@ -1,15 +1,18 @@
 title: nodejs笔记
+date: 2016-01-05
 tags: 
     - nodejs
 ---
 
 学习[地址](https://github.com/alsotang/node-lessons)
 
-#工具
+# 工具
 
 node的版本管理工具:NVM(Node Version Manager)([https://github.com/creationix/nvm](https://github.com/npm/npm))
 
 node包管理工具:npm(node package manage)([https://github.com/npm/npm](https://github.com/npm/npm))
+
+<!--more-->  
 
 npm修改淘宝源: 添加代码`registry = https://registry.npm.taobao.org`到~/.npmrc
 
@@ -17,7 +20,9 @@ npm修改淘宝源: 添加代码`registry = https://registry.npm.taobao.org`到~
 `npm install --save`: 安装包并将包版本名称写入package.json
 `--save-dev`: 安装可执行的包在本地
 
-#包
+
+
+# 包
 
 [express](http://expressjs.com): web框架
 

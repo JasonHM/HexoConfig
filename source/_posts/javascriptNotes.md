@@ -1,15 +1,20 @@
 title: javascript笔记
 tags: 
     - javascript
+date: 2015-12-20
 categories: 编程
 
 ---
 
-#js笔记
 
-##var的作用域
+
+# js笔记
+
+## var的作用域
 
 内部函数可以范围外部或全局(不加`var`)的变量,外部不能访问内部函数的变量
+
+<!-- more -->
 
 下面的例子[引用](https://github.com/alsotang/node-lessons/tree/master/lesson11):
 
@@ -50,7 +55,7 @@ parent_name 13 18
 ```
 js查找上下文寻找变量的时候不会自己子方法中去查找,在本方中查询不到则回去外部作用域中去查找。
 
-##闭包
+## 闭包
 
 内部函数可以访问定义在外部函数中的变量
 
@@ -94,11 +99,11 @@ for (var i = 0; i < 5; i++) {
 ```
 使用一个`function`包裹之后,这时候每次`console.log`的时候就不会受外层`i`的影响,默认查找`idx`,能够输出 `1,2,3,4,5`了
 
-##js事件的处理顺序
+## js事件的处理顺序
 
 先将主函数处理完成,遇到事件将事件加入到队列中,主函数完成后按队列顺序执行。
 
-##js数组
+## js数组
 
 ```javascript
 var numbers = ['zero', 'one', 'two', 'three', 'fore'] 
