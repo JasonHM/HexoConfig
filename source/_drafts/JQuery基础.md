@@ -1,6 +1,7 @@
 title: JQuery基础
 date: 2015-10-22 10:52:55
-tags: jquery
+tags: 
+    - jquery
 ---
 
 个人理解: jQuery是对js的一层封装，将需要写很多javascript代码的功能给封装成简单的函数。有特性（链式操作，行为层和结构层的分离..）,入门门槛低。

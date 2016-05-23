@@ -1,3 +1,11 @@
+title: angular js
+date: 2016-03-06
+tags: 
+    - angularjs
+categories: 编程
+
+---
+
 angularjs
 
 route: 

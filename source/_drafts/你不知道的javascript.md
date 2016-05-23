@@ -1,4 +1,9 @@
-<<你不知道的JavaScript>> Note
+title: 你不知道的JavaScript 阅读笔记
+date: 2015-10-26 11:21:56
+tags:
+
+---
+
 
 LHS查询： 查找的目的是对变量进行复制
 RHS查询： 获目的是获取变量的值
