@@ -14,9 +14,10 @@ tags:
 
 Meteor的模版系统**[Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md)**:
 	
-- Inclusion: 可以使用 `{{> templateName}}` 来引入模版,类似于include某个文件
-- Expression: 可以使用 `{{title}}` 引用变量,和angular有写类似
-- Block Helper: 能够使用 `{{#each}}...{{/each}}` 这样的语法块
+
+- Inclusion: 可以使用 > `templateName` 来引入模版,类似于include某个文件
+- Expression: 可以使用 `title 引用变量`,和angular有写类似
+- Block Helper: 能够使用`#each.../each` 这样的语法块
 
 meteor依赖跟踪**Computations**(没看明白,觉得很神奇)。
 
