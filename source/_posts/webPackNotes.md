@@ -6,11 +6,11 @@ tags:
 
 [getting started](http://webpack.github.io/docs/tutorials/getting-started/)
 
+<!--more-->
 ## 笔记:
 
 install: `npm install webpack -g`
 
-<!--more-->  
 
 一个简单的配置文件`webpack.config.js`:
 

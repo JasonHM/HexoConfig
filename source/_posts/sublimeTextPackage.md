@@ -5,13 +5,12 @@ tags:
 
 ---
 
-
 - 安装package control, [链接](https://packagecontrol.io/installation)
 	- 使用方式: 
 		- ctrl + shift + p打开packge control的命令搜索栏
 		- package install ,packge remove ,package list分别对应安装，移除，列表的功能
 		- (步骤一)如选择package install 之后可以搜索自己喜欢的插件安装即可
-
+        
 <!-- more -->
 
 - 接下来的其他插件可以选自己所需要的，或者在[流行](https://packagecontrol.io/browse/popular)插件里面选择

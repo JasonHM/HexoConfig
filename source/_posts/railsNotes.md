@@ -3,6 +3,8 @@ date: 2015-09-23
 tags: 
     - rails
 ---
+记录一些开发Rails中觉得有用的方法
+<!--more--> 
 
 - rails跨域请求
 在 *config/application.rb* 中 `class Application < Rails::Application` `end`中间添加:     
@@ -14,7 +16,7 @@ tags:
 })
 ```
 
-<!--more-->  
+ 
 
 - 导航栏高亮
 写导航栏的时候不知道该如何让选中的菜单高亮，每次都会选中初始的选择项

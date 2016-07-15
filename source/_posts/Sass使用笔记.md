@@ -7,7 +7,6 @@ tags:
 ---
 
 使用[Sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)和前面提到的Sui-mobile的ui框架开发嵌入微信端的页面。
-
 <!-- more -->
 
 主要用到的功能: 

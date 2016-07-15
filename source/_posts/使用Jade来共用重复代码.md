@@ -5,8 +5,10 @@ tags:
   - Jade
 
 ---
-
-花了一些时间看了jade官网的[api](http://jade-lang.com/reference/attributes/)，发现之前使用Titanium时写的jade就用到的其中的两个功能(羞愧)。
+ 
+花了一些时间看了jade官网的[api](http://jade-lang.com/reference/attributes/)
+<!--more--> 
+，发现之前使用Titanium时写的jade就用到的其中的两个功能(羞愧)。
 
 - Attributes,tags(漂亮的html排版，不需要`<>`、`</>` 使用代码缩进来控制层级)
 - Includes(能够引入部分html代码嵌入页面，区分出一些功能模块)

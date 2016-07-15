@@ -4,9 +4,8 @@ tags:
     - react
 ---
 
-
 # [React](https://github.com/facebook/react)
-
+<!--more-->  
 将独立的UI用*JSX*(js和xml混合的语法)定义的方法将代码封装成组件,再由多个子控件组成页面。
 
 JSX并不是React必须的
@@ -21,7 +20,7 @@ React.createElement('a', {href: 'http://facebook.github.io/react/'}, 'Hello Reac
 ```
 看起来像XML的JavaScript语法扩展
 
-<!--more-->  
+
 
 `React.Reander`: 基本方法,用于将模版转化为HTML语音
 

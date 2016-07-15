@@ -5,11 +5,9 @@ tags:
 
 ---
 
-> 个人学习Titanium的笔记 [20150316 － 20151015](http://ti.huangmin.me/articles)
+# [Appcelerator Ti](http://www.appcelerator.com/)
 
 <!--more--> 
-
-# [Appcelerator Ti](http://www.appcelerator.com/)
 
 最近使用Ti来进行Android和IOS的开发,与之前老版本的不同的是,在我所接触的版本不是之前的Web UI的形式,更多的是接近于原始的UI效果。
 

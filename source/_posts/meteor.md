@@ -3,14 +3,12 @@ date: 2015-12-29
 tags: 
     - meteor
 ---
-
 [meteor](https://github.com/meteor/meteor/)
+<!-- more -->
 
 学习了一下meteor，照着教程写了一个[Demo](http://huangmin.meteor.com/)。
 
 有一些收获,实时响应功能觉得很不可思议,在多个浏览器中能够同步响应,模版功能解决了一些重复布局代码。
-
-<!-- more -->
 
 Meteor的模版系统**[Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md)**:
 	

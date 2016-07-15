@@ -5,7 +5,8 @@ tags:
 categories: 编程
 
 ---
-
+记录一些学习过程中的笔记，有助于理解
+<!--more-->  
 let命令,不会变量提升,只作用于当前作用域(块级作用域),不允许重复声明变量;
 
 ```
@@ -18,9 +19,6 @@ function func(arg){
 	let arg; //报错
 }
 ```
-
-<!-- more -->
-
 const命令,对常量声明后不可改变;与let相同点:作用域,无变量提升,不可重复声明
 
 解构:
@@ -85,7 +83,8 @@ Array.from(ps).forEach(function(p){
 
 可以接受第二个参数,下面的例子将数组中布尔值为false的成员转为0。
 
-```￼Array.from([1, , 2, , 3], (n) => n || 0) // [1, 0, 2, 0, 3]
+```
+￼Array.from([1, , 2, , 3], (n) => n || 0) // [1, 0, 2, 0, 3]
 ```
 
 `Array.of()` 将一组值转换为数组
@@ -100,14 +99,19 @@ Array.of(3).length // 1
 
 ```
 function f( x, y ) { 
-	return { x, y };}// 等同于function f( x, y ) { 
-	return { x: x, y: y};}
+	return { x, y };
+}
+// 等同于
+function f( x, y ) { 
+	return { x: x, y: y};
+}
 ```
 
 属性表达式 定义方法名,对象时使用
 
 ```
-// 方法一 obj.foo = true;// 方法二 obj['a'+'bc'] = 123;
+// 方法一 obj.foo = true;
+// 方法二 obj['a'+'bc'] = 123;
 ```
 ...
 page 52

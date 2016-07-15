@@ -5,8 +5,8 @@ date: 2015-12-20
 categories: 编程
 
 ---
-
-
+记录一些学习过程中的笔记，有助于理解
+<!--more-->  
 
 # js笔记
 
@@ -14,7 +14,6 @@ categories: 编程
 
 内部函数可以范围外部或全局(不加`var`)的变量,外部不能访问内部函数的变量
 
-<!-- more -->
 
 下面的例子[引用](https://github.com/alsotang/node-lessons/tree/master/lesson11):
 

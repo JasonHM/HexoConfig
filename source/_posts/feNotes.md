@@ -6,10 +6,9 @@ tags:
 categories: 编程
 
 ---
-
-
+  
 ## 封装部分的html code重复使用: 
-
+<!--more-->
 
 ### [load](http://api.jquery.com/load/)
 
@@ -31,8 +30,6 @@ $("#testLoad").load("/resources/load.html");
 </body>
 </html>
 ```
-
-<!-- more -->
 
 ### [imports](http://www.html5rocks.com/zh/tutorials/webcomponents/imports/)
 

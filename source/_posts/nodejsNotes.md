@@ -5,14 +5,13 @@ tags:
 ---
 
 学习[地址](https://github.com/alsotang/node-lessons)
-
+<!--more--> 
 # 工具
 
 node的版本管理工具:NVM(Node Version Manager)([https://github.com/creationix/nvm](https://github.com/npm/npm))
 
 node包管理工具:npm(node package manage)([https://github.com/npm/npm](https://github.com/npm/npm))
 
-<!--more-->  
 
 npm修改淘宝源: 添加代码`registry = https://registry.npm.taobao.org`到~/.npmrc
 

@@ -5,18 +5,17 @@ tags:
   - ubuntu
 
 ---
+
 概要：
 
 主要内容是在已有的windows基础上面安装ubuntu。在启动项的时候可以在linux的启动项选择页面选择自己想要进入的系统。
+<!--more-->  
 
 准备工作：
 
 - 已有的Windows7系统
 - Ubuntu系统文件,没有的话可以去官方下载,本篇以[Kylin](http://www.ubuntu.org.cn/download/ubuntu-kylin-zh-CN)这个版本为例，最下面有种子文件，可以通过迅雷等工具下载。
 - u盘或者是空光盘
-
-<!-- more -->
-
 
 安装步骤：
 
