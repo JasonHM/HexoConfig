@@ -15,7 +15,7 @@ npm install --save-dev gulp
 npm install --save-dev gulp-connect
 ```
 
-至于为什么要安装在本地而不是全局的，在[stackoverflow](http://stackoverflow.com/questions/22115400/why-do-we-need-to-install-gulp-globally-and-locally)上面有个很好的回答。
+至于为什么要安装在本地而不是全局的，在[stackoverflow](http://stackoverflow.com/questions/22115400/why-do-we-need-to-install-gulp-globally-and-locally)上面有个很好的回答，大概意思指安装在全局的时候共用一个命令,给项目带来了更多依赖。而安装在本地有package.json来保存项目该用的版本信息，在npm安装的时候会先搜索本地全局是否存在才会去远程下载。
 <!--more-->  
 
 `--save-dev` 指保存在package.json中并能够直接在本地调用

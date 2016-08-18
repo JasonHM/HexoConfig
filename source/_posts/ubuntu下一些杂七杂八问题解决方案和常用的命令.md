@@ -1,4 +1,4 @@
-title: ubuntu下一些常用的命令和记录一些问题解决方法
+title: ubuntu下重启sougou、Android手机无权限等问题解决方案
 date: 2015-03-16
 tags: 
     - ubuntu

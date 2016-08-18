@@ -1,8 +1,8 @@
 title: 更改checkbox radio的默认选中效果
 date: 2016-06-23
 tags: 
-    - HTML
-    - CSS
+    - html
+    - css
 categories: 编程
 
 ---

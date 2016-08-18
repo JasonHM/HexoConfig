@@ -1,5 +1,5 @@
-title: 精通css第二版读书笔记
-date: 2016-07-01
+title: 读<<精通css第二版>>笔记
+date: 2016-08-10
 tags: 
     - css
 categories: 编程
@@ -118,6 +118,143 @@ IE6不支持属性选择器
 
 ### 第三章 可视化格式模型
 
+box-sizing: 
+标准盒模型(border-box): 内容区域width + 内边距width + 外边距width = width
+IE非标准盒模型(content-box): width = 外边距width + 内边距width + 剩余的width(内容区域)
+差异是标准盒模型由content,pandding,margin决定width,非标准盒模型固定width而压缩content
+
 inline-block:   让元素能够像行内（inline）元素一样排列，内容符合块级框（block）的行为，能够设置高度，宽度,垂直外边距
 
-P44
+block: 
+垂直排列，垂直距离由verticle margin计算（重叠外边距）
+
+position
+
+relative: 占据原来位置和空间，发生偏移时会覆盖别的框
+absoulte: 不占据空间，相对于距离它最近已定位的祖先元素而定位
+fixed: 固定定位是绝对定位的一种,IE6不支持,IE7部分支持,实现会有些BUG
+浮动:  浮动框向左右移动直到碰到包含框或者碰到另一个浮动的边缘，高度不一样时会卡住。
+    清除浮动(下面的方法不适用于IE6):
+        ```
+        .clear:after{
+            content: '';
+            height: 0;
+            visibility: hidden;
+            display: block;
+            clear: both;
+        }
+        ```
+
+### 第四章 背景图像效果
+
+#### 背景图
+
+垂直渐变
+
+```
+body{
+    background: #ccc url(img/gradient.png) repeat-x; //为了更贴近gradient.png最终的渐变色使背景无重叠
+}
+```
+
+css圆角边框
+ - 插入四张不同背景图在四个不同的标签上
+ - 山顶角(图片变成透明的只遮住部分直角地方),由background-color控制边角颜色
+css3圆角边框
+ - 在一个标签上使用四张背景图,每张的图片,background-position,background-repeat用`,`分隔
+ - border-radius 属性
+ - border-image ,九分法缩放
+   ```
+   .box{
+        -webkit-border-image: url(img/corners.gif) 25% 25% 25% 25% / 25px round round;
+   }
+   ```
+
+#### 投影
+
+简单投影
+```
+.img-wrapper{
+    background: url(img/shadow.git) no-repeat bottom right;
+    clear: right;
+    float: left;
+    position: relative;  /* 兼容IE6 */
+}
+.img-wrapper img{
+    margin: -5px 5px 5px -5px;
+    display: block; /* 兼容IE6 */
+    position: relative;   /* 兼容IE6 */
+}
+/* 第二种方式 */
+.img-wrapper img2{
+    position: relative;
+    left: -5px;
+    top: -5px;
+    
+}
+/* 使用css3 box-shadow属性 */
+img{
+    box-shadow: 3px 3px 6px #666;
+}
+```
+
+透明度
+
+使用opactiy后改元素的子类元素也继承这个属性
+RGBa,a值的是alpha透明度这种情况下能够透明
+png文件格式能够支持alpha透明度,IE6不支持,可以添加过滤器让它支持
+```
+div{
+    filter:progid:DXImageTransform.Microsoft.AlpahImageLoader(src='/img/my-image.png',sizingMethod='crop');
+    background: none;
+}
+```
+
+### 第七章
+
+border-spacing可以控制单元格之间的距离，IE7及以下版本不支持,可以使用cellspcing属性
+
+label与input关联
+
+隐式方式 
+```
+<label><input></input></label>
+```
+显式方式 
+
+```
+<label></label><input></input>
+```
+
+label for 对于input的ID，input name对应表单提交的key
+
+fieldset用来分割不同的表单块
+legend位于fieldset里面
+
+```
+<fieldset>
+    <legend>title or explanatory caption</legend>
+    <div>
+        <label><label>
+        <input></input>
+    </div>
+</fieldset>
+```
+
+注意: 
+
+input[type='text'] 属性选择器不能再IE6及其以下版本使用
+
+在编写表单的时候 :focus伪类选择器用在input,textarea上面能够提高用户体验
+
+强调label的重要性可以在里面加入em,strong标签，将label 后面的input对齐可以
+
+```
+label{
+    float: left;
+    width: 10rem;
+    cursor: pointer;
+}
+```
+
+P193

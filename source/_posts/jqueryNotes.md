@@ -5,6 +5,7 @@ tags:
 
 ---
 记录一些使用jquery遇到的问题和解决方法
+
 <!-- more -->
 
 - 使用[localResizeIMG](https://github.com/think2011/localResizeIMG)做图片压缩的时候碰到的一个问题。

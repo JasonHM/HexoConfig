@@ -1,12 +1,15 @@
-title: ECMAScript 6
+title: 读ECMAScript 6记录
 date: 2016-03-06
 tags: 
     - javascript
+    - ES6
 categories: 编程
 
 ---
 记录一些学习过程中的笔记，有助于理解
+
 <!--more-->  
+
 let命令,不会变量提升,只作用于当前作用域(块级作用域),不允许重复声明变量;
 
 ```
